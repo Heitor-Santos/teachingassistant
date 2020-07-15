@@ -27,6 +27,7 @@ When eu preencho as metas “Roteiro”, “Gerência de configuração” e “
 And cofirmo a operação
 Then surge uma mensagem de erro dizendo “Falta colocar o conceito para a meta SaaS”
 And estou na mesma  página
+And a operação não é completa
 
 Cenário Serviço 
 Given o aluno “heitor” está cadastrado no sistema
@@ -36,4 +37,4 @@ And o aluno confirma a operação
 Then o sistema analisa se todas as metas foram preenchidas
 And o sistema percebe que falta o conceito de SaaS
 And envia uma mensagem de erro para o usuário
-
+And a operação não é completa
