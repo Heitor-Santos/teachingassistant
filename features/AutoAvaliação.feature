@@ -73,4 +73,4 @@ When o aluno faz a auto-avaliação das metas “Roteiro”, “Gerência de con
 And o aluno confirma a operação
 Then o sistema analisa se todas as metas foram preenchidas
 And o sistema percebe que falta o conceito de SaaS
-And envia uma mensagem de erro para o usuário
+And envia uma mensagem de erro "Falta colocar o conceito para a meta SaaS" para o usuário
